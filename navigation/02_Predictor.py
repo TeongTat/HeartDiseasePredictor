@@ -12,7 +12,7 @@ st.subheader("This is an example case study using Heart Disease Prediction to cr
 
 
 # Load your dataset
-data = pd.read_csv('//Users/tattat/WQD7003 Assignment/ML_Deployment.csv')
+data = pd.read_csv('/ML_Deployment.csv')
 data_frame = pd.DataFrame(data)
 
 # Data Preprocessing:
