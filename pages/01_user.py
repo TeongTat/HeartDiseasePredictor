@@ -19,16 +19,12 @@ st.write("User can find fill up the information below to obtain the BMI for the 
 st.subheader("Adult BMI Calculator")
 components.iframe("https://www.cdc.gov/bmi/adult-calculator/calculator.html", height=640,scrolling=True)
 
-# Display the Blood Pressure image and source
 
 # Display the Blood Pressure image and source
-try:
-  image_path_bp = "Bloodpressure.jpg"
-  st.image(Image.open(image_path_bp), caption="Blood Pressure Chart", use_column_width=True)
-  st.write("Source: [Healthline](https://www.healthline.com/health/blood-pressure-chart)")
-except FileNotFoundError:
-  st.error("The image file was not found. Please check the file path.")
+image_path_bp = "Bloodpressure.jpg"
+st.image(Image.open(image_path_bp), caption="Blood Pressure Chart", use_column_width=True)
 st.write("Source: [Healthline](https://www.healthline.com/health/blood-pressure-chart)")
+
 
 # Display the Cholesterol Level image and source
 image_path_chol = "Cholesterol level.webp"
