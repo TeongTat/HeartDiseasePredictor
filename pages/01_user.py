@@ -15,8 +15,16 @@ st.write(
 #write description:
 st.write("User can find fill up the information below to obtain the BMI for the predictor.")
 
-# embed streamlit docs in a streamlit app
-components.iframe("https://www.cdc.gov/bmi/adult-calculator/calculator.html" title="Adult BMI Calculator", height=950)
+import streamlit.components.v1 as components
+
+# Embed the Adult BMI Calculator in the Streamlit app
+st.subheader("Adult BMI Calculator")
+components.iframe(
+    "https://www.cdc.gov/bmi/adult-calculator/calculator.html", 
+    width="100%", 
+    height=640,
+    scrolling=True
+)
 
   # Load an image from a local file
     image_bp = "Bloodpressure.png"
