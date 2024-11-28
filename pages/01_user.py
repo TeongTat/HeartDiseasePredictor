@@ -23,7 +23,7 @@ components.iframe("https://www.cdc.gov/bmi/adult-calculator/calculator.html", he
 
 # Display the Blood Pressure image and source
 try:
-  image_path_bp = "Bloodpressure.png"
+  image_path_bp = "Bloodpressure.jpg"
   st.image(Image.open(image_path_bp), caption="Blood Pressure Chart", use_column_width=True)
   st.write("Source: [Healthline](https://www.healthline.com/health/blood-pressure-chart)")
 except FileNotFoundError:
