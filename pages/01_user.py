@@ -19,12 +19,7 @@ import streamlit.components.v1 as components
 
 # Embed the Adult BMI Calculator in the Streamlit app
 st.subheader("Adult BMI Calculator")
-components.iframe(
-    "https://www.cdc.gov/bmi/adult-calculator/calculator.html", 
-    width="100%", 
-    height=640,
-    scrolling=True
-)
+components.iframe("https://www.cdc.gov/bmi/adult-calculator/calculator.html", width="100%", height="640",scrolling=True)
 
 # Load an image from a local file
 image_bp = "Bloodpressure.png"
