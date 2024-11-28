@@ -23,7 +23,7 @@ components.iframe("https://www.cdc.gov/bmi/adult-calculator/calculator.html", he
 # Display the Blood Pressure image and source
 image_path_bp = "bloodpressure.jpg"
 st.image(Image.open(image_path_bp), caption="Blood Pressure Chart", use_column_width=True)
-st.write("Source: [Healthline](https://www.healthline.com/health/blood-pressure-chart)")
+st.write("Source: [Heart Org](https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings)")
 
 
 # Display the Cholesterol Level image and source
