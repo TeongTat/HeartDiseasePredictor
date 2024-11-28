@@ -10,9 +10,13 @@ from PIL import Image
 st.tittle("User Guide")
 
 st.write(
-  """ This page will gives some idea to user how to fill up """)
+  """ This page will gives guidance to user some information prior to using the Heart Disease Predictor""")
 
+#write description:
+st.write("User can find fill up the information below to obtain the BMI for the predictor.")
 
+# embed streamlit docs in a streamlit app
+components.iframe("https://www.cdc.gov/bmi/adult-calculator/calculator.html" title="Adult BMI Calculator", height=950)
 
   # Load an image from a local file
     image_bp = "Bloodpressure.png"
