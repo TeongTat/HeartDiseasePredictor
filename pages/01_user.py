@@ -15,15 +15,12 @@ st.write(
 #write description:
 st.write("User can find fill up the information below to obtain the BMI for the predictor.")
 
-import streamlit.components.v1 as components
-
 # Embed the Adult BMI Calculator in the Streamlit app
 st.subheader("Adult BMI Calculator")
 components.iframe("https://www.cdc.gov/bmi/adult-calculator/calculator.html", height=640,scrolling=True)
 
 # Display the Blood Pressure image and source
-image_path_bp = "Bloodpressure.png"
-st.image(Image.open(image_path_bp), caption="Blood Pressure Chart", use_column_width=True)
+st.image("Bloodpressure.png", caption="Blood Pressure Chart", use_column_width=True)
 st.write("Source: [Healthline](https://www.healthline.com/health/blood-pressure-chart)")
 
 # Display the Cholesterol Level image and source
