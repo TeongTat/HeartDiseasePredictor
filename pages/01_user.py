@@ -19,16 +19,16 @@ import streamlit.components.v1 as components
 
 # Embed the Adult BMI Calculator in the Streamlit app
 st.subheader("Adult BMI Calculator")
-components.iframe("https://www.cdc.gov/bmi/adult-calculator/calculator.html", width=100, height=640,scrolling=True)
+components.iframe("https://www.cdc.gov/bmi/adult-calculator/calculator.html", height=640,scrolling=True)
 
 # Load an image from a local file
-image_bp = "Bloodpressure.png"
+image_path = "Bloodpressure.png"
 st.write("Source: https://www.healthline.com/health/blood-pressure-chart")
 
  # Load an image from a local file
-image_cholesterol = "Cholesterol level.webp"
+image_path = "Cholesterol level.webp"
 st.write("Source: https://medicinemarketplace.com/controlling-cholestrol/")
 
 # Load an image from a local file
-image_glucose = "Glucose_level.webp"
+image_path = "Glucose_level.webp"
 st.write("Source: https://www.cmihealth.com/blogs/news/what-your-blood-glucose-test-results-mean-cmi-health-blog")
