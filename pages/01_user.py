@@ -26,14 +26,14 @@ components.iframe(
     scrolling=True
 )
 
-  # Load an image from a local file
-    image_bp = "Bloodpressure.png"
+# Load an image from a local file
+image_bp = "Bloodpressure.png"
 st.write("Source: https://www.healthline.com/health/blood-pressure-chart")
 
  # Load an image from a local file
-    image_cholesterol = "Cholesterol level.webp"
+image_cholesterol = "Cholesterol level.webp"
 st.write("Source: https://medicinemarketplace.com/controlling-cholestrol/")
 
 # Load an image from a local file
-  image_glucose = "Glucose_level.webp"
+image_glucose = "Glucose_level.webp"
 st.write("Source: https://www.cmihealth.com/blogs/news/what-your-blood-glucose-test-results-mean-cmi-health-blog")
