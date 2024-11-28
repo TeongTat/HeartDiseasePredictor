@@ -24,12 +24,12 @@ components.iframe("https://www.cdc.gov/bmi/adult-calculator/calculator.html", he
 image_path_bp = "Bloodpressure.jpg"
 
 try:
-        # Open the image file
-        image = Image.open(image_path_bp)
-        # Display the image
-        st.image(image, use_column_width=True)
-    except FileNotFoundError:
-        st.error("The image file was not found. Please check the file path.")
+# Open the image file
+image = Image.open(image_path_bp)
+# Display the image
+st.image(image, use_column_width=True)
+except FileNotFoundError:
+st.error("The image file was not found. Please check the file path.")
 st.write("Source: [Healthline](https://www.healthline.com/health/blood-pressure-chart)")
 
 # Display the Cholesterol Level image and source
