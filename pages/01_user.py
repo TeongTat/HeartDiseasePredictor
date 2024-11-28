@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 import PIL
 from PIL import Image
 
-st.tittle("User Guide")
+st.title("User Guide")
 
 st.write(
   """ This page will gives guidance to user some information prior to using the Heart Disease Predictor""")
