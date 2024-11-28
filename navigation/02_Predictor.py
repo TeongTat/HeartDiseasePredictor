@@ -8,27 +8,12 @@ import pickle
 
 st.title("Heart Disease Prediction")
 
-st.subheader("This is an example case study using Heart Disease Prediction to create web app")
+st.subheader("User can use the predictor based on Gradient Boosting Regressor to predict their Heart Disease")
 
 
 # Load your dataset
 data = pd.read_csv('ML_Deployment.csv')
 data_frame = pd.DataFrame(data)
-
-# Data Preprocessing:
-
-st.write(
-"""Execution:
-
-rename ap_hi and ap_low.
-changing male data from 2 to 0.
-correction format for age column.
-create BMI column for data analytics.
-check for null values.
-showing correlations before data cleaning.""")
-
-
-
 
 
 # Feature columns
