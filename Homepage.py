@@ -3,7 +3,7 @@ import streamlit as st
 
 st.title("Heart Disease Prediction")
 
-st.subheader("This is an example case study using Heart Disease Prediction to create web app")
+st.subheader("This is a case study using Heart Disease dataset for prediction modelling.")
 
 st.write(
   """ The dataset is obtained from Kaggle: https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset .""")
