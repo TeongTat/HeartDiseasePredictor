@@ -4,5 +4,12 @@ st.title("USA Heart Disease Visualization")
 
 # Embed the USA Visualization in the Streamlit app
 st.subheader("Visualization on USA Heart Disease example")
-# Embed CDC widget using iframe
-st.html("<div data-cdc-widget="CountyMapsTemplate" data-instance-name="HeartDiseaseAndStroke" data-default-state="Alabama" data-default-dataset="Heart Disease"></div> <script src="https://tools.cdc.gov/1M1B"></script>")
+iframe_code = """
+<iframe src="https://tools.cdc.gov/api/v2/resources/media/CountyMapsTemplate?default-state=Florida&default-dataset=Heart%20Disease" 
+        width="100%" 
+        height="700" 
+        style="border:none;">
+</iframe>
+"""
+
+st.components.v1.html(iframe_code, height=700, scrolling=True)
