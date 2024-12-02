@@ -4,11 +4,8 @@ import streamlit as st
 st.title("Heart Disease Prediction")
 
 
-# Load an image from repository
 image_heart = "heartdisease.jpg"
-
-# Open the image file
-image = Image.open(image_heart)
+st.image(Image.open(image_heart), caption="Blood Pressure Chart", use_column_width=True)
 
 st.subheader("This is a case study using Heart Disease dataset for prediction modelling.")
 
