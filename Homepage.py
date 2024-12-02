@@ -8,7 +8,7 @@ st.title("Heart Disease Prediction")
 image_heart = "heartdisease.jpg"
 
 # Open the image file
-image = Image.open(image_path)
+image = Image.open(image_heart)
 
 st.subheader("This is a case study using Heart Disease dataset for prediction modelling.")
 
