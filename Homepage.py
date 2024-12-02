@@ -1,4 +1,6 @@
 import streamlit as st
+import PIL
+from PIL import Image
 
 
 st.title("Heart Disease Prediction")
